@@ -1,0 +1,35 @@
+array(2) {
+  [0]=>
+  string(1578) "{"country_code": "RU", "language_code": "en", "gatekeepers": {"cc": true}, "show_app_install": true, "static_root": "//instagramstatic-a.akamaihd.net/h1", "platform": "web", "hostname": "www.instagram.com", "entry_data": {"ProfilePage": [{"user": {"username": "gorcer", "follows": {"count": 111}, "requested_by_viewer": false, "followed_by": {"count": 238}, "country_block": null, "has_requested_viewer": false, "external_url_linkshimmed": "http://l.instagram.com/?e=ATMUsHtaqJ4f4QS9qfVfuRVNX13vZoEBaDrgntABmfdGBIsU8fSmP9RM\u0026u=http%3A%2F%2Fgorcer.com%2F", "follows_viewer": false, "profile_pic_url": "https://scontent.cdninstagram.com/t51.2885-19/11809650_866268446792328_91846120_a.jpg", "id": "50654772", "biography": null, "full_name": "egor", "media": {"count": 696, "page_info": {"has_previous_page": false, "start_cursor": null, "end_cursor": null, "has_next_page": true}, "nodes": []}, "blocked_by_viewer": false, "followed_by_viewer": false, "is_verified": false, "has_blocked_viewer": false, "is_private": true, "external_url": "http://gorcer.com"}}]}, "qe": {"profile": {"p": {}, "g": ""}, "su_universe": {"p": {}, "g": ""}, "us": {"p": {"use_continue_text": "true"}, "g": "continue_vs_signup_text_test_03"}, "su": {"p": {"enabled": "true"}, "g": "test_20160322"}, "freq": {"p": {}, "g": ""}, "us_li": {"p": {}, "g": ""}, "discovery": {"p": {}, "g": ""}}, "display_properties_server_guess": {"viewport_width": 360, "pixel_ratio": 1.5}, "config": {"viewer": null, "csrf_token": "Kgil7jMxn2ybMPvxe5beFlZSoJMmrfaT"}, "environment_switcher_visible_server_guess": true}"
+  [1]=>
+  string(906) "
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_Commons.js/4ca6dcad6f43.js" type="text/javascript" crossorigin="anonymous"></script>
+<script src="//instagramstatic-a.akamaihd.net/h1/bundles/en_US_ProfilePage.js/2e4f16bcafcd.js" type="text/javascript" crossorigin="anonymous"></script>
+        
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1425767024389221');
+
+fbq('track', 'PageView');
+
+
+</script>
+<noscript>
+
+
+</noscript>
+
+    
+    <script type="text/javascript">window._timings.domInteractive = Date.now()</script>
+
+    </body>
+</html>"
+}
+Array
+(
+)
