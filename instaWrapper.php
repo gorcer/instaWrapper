@@ -25,6 +25,9 @@ class instaWrapper {
             $nodes =   $insta_array['entry_data']['ProfilePage'][0]['user']['media']['nodes'];
         elseif (isset($insta_array['entry_data']['LocationsPage']))
             $nodes =   $insta_array['entry_data']['LocationsPage'][0]['location']['media']['nodes'];
+        elseif (isset($insta_array['entry_data']['TagPage']))
+            $nodes =   $insta_array['entry_data']['TagPage'][0]['tag']['media']['nodes'];
+
 
         $result=[];
         foreach($nodes as $item) {
