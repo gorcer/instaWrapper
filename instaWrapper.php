@@ -19,7 +19,6 @@ class instaWrapper {
         $shards = explode('window._sharedData = ', $source);
         $insta_json = explode(';</script>', $shards[1]);
 
-        var_dump($insta_json);
         $insta_array = json_decode($insta_json[0], TRUE);
 
         if (isset($insta_array['entry_data']['ProfilePage']))
