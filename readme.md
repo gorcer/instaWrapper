@@ -11,6 +11,7 @@ print_r(
 
 Result:
 
+```
 Array
 (
     [0] => Array
@@ -35,3 +36,4 @@ Array
 
 ....
 )
+```
