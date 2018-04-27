@@ -35,13 +35,15 @@ class instaWrapper {
 if (is_array($nodes))
         foreach($nodes as $item) {
 $item = $item['node'];
+$caption = $item['edge_media_to_caption']['edges'][0]['node']['text'];
+
             $result[]=[
                 "id"    => $item['id'],
                 "code" => $item['shortcode'],
                 "url"  => "https://www.instagram.com/p/".$item['shortcode'],
                 "timestamp" => $item['taken_at_timestamp'],
                 "date" => date("d.m.Y H:i:s", $item['taken_at_timestamp']),
-                "caption" => (isset($item['caption'])?$item['caption']:false),
+                "caption" => $caption,
                 "owner_id" => $item['owner']['id'],
                 "thumbnail_src" => $item['thumbnail_src'],
                 "image_src" => $item['display_url'],
