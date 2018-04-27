@@ -35,7 +35,12 @@ class instaWrapper {
 if (is_array($nodes))
         foreach($nodes as $item) {
 $item = $item['node'];
-$caption = $item['edge_media_to_caption']['edges'][0]['node']['text'];
+
+if (isset($item['edge_media_to_caption']['edges'][0]['node']['text']))
+    $caption = $item['edge_media_to_caption']['edges'][0]['node']['text'];
+else
+    $caption='';
+
 
             $result[]=[
                 "id"    => $item['id'],
