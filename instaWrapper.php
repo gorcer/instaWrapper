@@ -29,7 +29,7 @@ class instaWrapper {
 
 
         if ($source == false || $source == ' ') {
-            echo "Connection problem";
+            // echo "Connection problem";
             return;
         }
 
