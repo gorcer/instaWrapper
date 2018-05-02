@@ -37,7 +37,7 @@ class instaWrapper {
         $insta_json = explode(';</script>', $shards[1]);
 
         $insta_array = json_decode($insta_json[0], TRUE);
-
+$nodes=[];
         if (isset($insta_array['entry_data']['ProfilePage']))
             $nodes =   $insta_array['entry_data']['ProfilePage'][0]['graphql']['user']['edge_owner_to_timeline_media']['edges'];
         elseif (isset($insta_array['entry_data']['LocationsPage']))
