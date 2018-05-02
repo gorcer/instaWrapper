@@ -30,7 +30,7 @@ class instaWrapper {
 
         if ($source == false || $source == ' ') {
             echo "Connection problem";
-            die();
+            return;
         }
 
         $shards = explode('window._sharedData = ', $source);
